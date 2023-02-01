@@ -15,6 +15,8 @@
 		41C164ED29899A780070AECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C164EB29899A780070AECE /* LaunchScreen.storyboard */; };
 		41C164FC298A51E60070AECE /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C164FB298A51E60070AECE /* QuestionViewController.swift */; };
 		41C164FE298A5B2D0070AECE /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C164FD298A5B2D0070AECE /* FinalViewController.swift */; };
+		41C16500298A921C0070AECE /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C164FF298A921C0070AECE /* Question.swift */; };
+		41C16502298A92290070AECE /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C16501298A92280070AECE /* Answer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		41C164EE29899A780070AECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "AnimalQuiz/Supporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
 		41C164FB298A51E60070AECE /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		41C164FD298A5B2D0070AECE /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		41C164FF298A921C0070AECE /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		41C16501298A92280070AECE /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		41C164F729899DBC0070AECE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				41C164FF298A921C0070AECE /* Question.swift */,
+				41C16501298A92280070AECE /* Answer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,6 +193,8 @@
 				41C164FE298A5B2D0070AECE /* FinalViewController.swift in Sources */,
 				41C164E529899A760070AECE /* ViewController.swift in Sources */,
 				41C164E129899A760070AECE /* AppDelegate.swift in Sources */,
+				41C16502298A92290070AECE /* Answer.swift in Sources */,
+				41C16500298A921C0070AECE /* Question.swift in Sources */,
 				41C164FC298A51E60070AECE /* QuestionViewController.swift in Sources */,
 				41C164E329899A760070AECE /* SceneDelegate.swift in Sources */,
 			);
