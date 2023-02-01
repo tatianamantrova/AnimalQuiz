@@ -94,25 +94,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="lUJ-ey-OPF">
-                                <rect key="frame" x="16" y="219.5" width="343" height="228"/>
+                                <rect key="frame" x="150" y="219.5" width="75" height="228"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnv-lM-DK1">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nyx-qU-Rzz">
-                                        <rect key="frame" x="0.0" y="64.5" width="343" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="64.5" width="75" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MY7-Rj-iMc">
-                                        <rect key="frame" x="0.0" y="129" width="343" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="129" width="75" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEN-1j-8DM">
-                                        <rect key="frame" x="0.0" y="193.5" width="343" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="193.5" width="75" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                     </button>
@@ -196,21 +196,18 @@
                                         <rect key="frame" x="0.0" y="60" width="343" height="20.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ненавижу" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x57-GF-x3O">
-                                                <rect key="frame" x="0.0" y="0.0" width="144.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="81" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Обожаю" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joM-o5-4ok">
-                                                <rect key="frame" x="198.5" y="0.0" width="144.5" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Обожаю" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joM-o5-4ok">
+                                                <rect key="frame" x="135" y="0.0" width="208" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstItem="x57-GF-x3O" firstAttribute="width" secondItem="joM-o5-4ok" secondAttribute="width" id="mb4-Si-Og9"/>
-                                        </constraints>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFb-Dd-7pZ">
                                         <rect key="frame" x="0.0" y="110.5" width="343" height="34.5"/>
@@ -222,20 +219,36 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6mM-Sd-XTE">
+                                <rect key="frame" x="0.0" y="96" width="375" height="4"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Какую пищу вы предпочитаете?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vf-jx-hFN">
+                                <rect key="frame" x="16" y="120" width="294.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hTV-Bu-vMV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="4vf-jx-hFN" firstAttribute="top" secondItem="6mM-Sd-XTE" secondAttribute="bottom" constant="20" id="0TP-zE-LuM"/>
+                            <constraint firstItem="lUJ-ey-OPF" firstAttribute="centerX" secondItem="bB4-Ca-eUR" secondAttribute="centerX" id="1xX-PW-Ong"/>
+                            <constraint firstItem="lUJ-ey-OPF" firstAttribute="centerY" secondItem="bB4-Ca-eUR" secondAttribute="centerY" id="22j-Wm-gKg"/>
+                            <constraint firstItem="hTV-Bu-vMV" firstAttribute="trailing" secondItem="rF2-4W-GOK" secondAttribute="trailing" constant="16" id="8xT-pF-NaK"/>
+                            <constraint firstItem="rF2-4W-GOK" firstAttribute="leading" secondItem="hTV-Bu-vMV" secondAttribute="leading" constant="16" id="Eqt-9s-t4Y"/>
+                            <constraint firstItem="6mM-Sd-XTE" firstAttribute="top" secondItem="hTV-Bu-vMV" secondAttribute="top" id="HQ0-JC-U3M"/>
                             <constraint firstItem="a17-cI-Cw6" firstAttribute="leading" secondItem="hTV-Bu-vMV" secondAttribute="leading" constant="16" id="KOF-Ro-YSF"/>
+                            <constraint firstItem="lUJ-ey-OPF" firstAttribute="centerY" secondItem="bB4-Ca-eUR" secondAttribute="centerY" id="Kw2-Vd-8PC"/>
+                            <constraint firstItem="6mM-Sd-XTE" firstAttribute="leading" secondItem="hTV-Bu-vMV" secondAttribute="leading" id="PjQ-2N-CwU"/>
+                            <constraint firstItem="4vf-jx-hFN" firstAttribute="leading" secondItem="hTV-Bu-vMV" secondAttribute="leading" constant="16" id="Rd7-py-TIT"/>
                             <constraint firstAttribute="trailing" secondItem="a17-cI-Cw6" secondAttribute="trailing" constant="16" id="ebY-li-wJ1"/>
                             <constraint firstItem="a17-cI-Cw6" firstAttribute="centerY" secondItem="bB4-Ca-eUR" secondAttribute="centerY" id="fjA-DO-1v5"/>
+                            <constraint firstItem="hTV-Bu-vMV" firstAttribute="trailing" secondItem="6mM-Sd-XTE" secondAttribute="trailing" id="jZk-Oa-8oR"/>
+                            <constraint firstItem="rF2-4W-GOK" firstAttribute="centerY" secondItem="bB4-Ca-eUR" secondAttribute="centerY" id="kHu-uv-M38"/>
+                            <constraint firstItem="hTV-Bu-vMV" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4vf-jx-hFN" secondAttribute="trailing" symbolic="YES" id="oJB-wM-czb"/>
+                            <constraint firstItem="lUJ-ey-OPF" firstAttribute="centerY" secondItem="bB4-Ca-eUR" secondAttribute="centerY" id="tWJ-Cn-ahO"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="lUJ-ey-OPF"/>
-                                <exclude reference="rF2-4W-GOK"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Вопрос №" id="NVk-y4-sFZ">
                         <barButtonItem key="backBarButtonItem" title="Back" id="Wux-PL-LpP"/>
